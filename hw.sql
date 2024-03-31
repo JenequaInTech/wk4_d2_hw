@@ -32,3 +32,18 @@ select * from store_id WHERE customer last_name ending in 'es'
 
 select * from payment amount between 4.99 and 5.99
 -- 10. Within the film table, how many rating categories are there? And what rating has the most
+
+--Week 5 - Wednesday Questions
+
+--1. List all customers who live in Texas (use JOINs)
+select * from customer WHERE JOINs = 'texas'
+--2. Get all payments above $6.99 with the Customer's Full Name
+select * from payment WHERE payment >6.99
+
+--3. Show all customers names who have made payments over $175(use subqueries)
+select * from customer
+--4. List all customers that live in Nepal (use the city table)
+--5. Which staff member had the most transactions?
+--6. How many movies of each rating are there?
+--7.Show all customers who have made a single payment above $6.99 (Use Subqueries)
+--8. How many free rentals did our stores give away?
